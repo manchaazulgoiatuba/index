@@ -1,0 +1,22 @@
+@charset "UTF8";
+
+main{
+    text-decoration: none;
+    width:100%;
+    height: auto;
+    background-color: #ebebeb;
+    border-radius: 10px;
+}
+
+main ol li a{
+    text-decoration: none;
+    color: black;
+}
+@media (max-width: 932px){
+    main{
+        width: 90%;
+    }
+    main ol li{
+        font-size: 16px;
+    }
+}
