@@ -45,6 +45,12 @@ header{
     background-color: #134f8c;
     color: white;
 }
+.menumobile{
+    display: none;
+}
+.menumobile img{
+    height: 200px;
+}
 .setcion{
     width: 100%;
     height: calc(100vh - 200px);
@@ -190,7 +196,12 @@ header{
     .rodape-div-2-coluna-text{
         font-size: 17px;
     }
-    
+    .menu-text{
+        display: none;
+    }
+    .menumobile{
+        display: block;
+    }
     .wppbutton{
         bottom: 40px;
     }

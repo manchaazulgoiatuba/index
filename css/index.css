@@ -223,3 +223,19 @@ h1{
 .galeria img:hover{
     transform: scale(1.03);
 }
+
+
+@media (max-width: 932px){
+  .vendas{
+    flex-direction: column;
+  }
+  .galeria img{
+    width: 100%;
+  }
+  .eventos-text{
+    font-size: 16px;
+  }
+  .wrapper{
+    display: none;
+  }
+}
