@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/menumobile.css">
     <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
     <link rel="manifest" href="json/manifest.json">
     <title>Mancha Azul</title>
 </head>
 <body>
     <header>
+     
         <div class="menu">
             <div class="menu-img">
                 <a href="index.html"><img src="image/logo.png" alt=""></a> 
@@ -21,13 +23,19 @@
                 <a href="#eventos" class="js-link">Eventos</a>
                 <a href="#historia" class="js-link">História</a>
             </div>
-            <div class="menumobile">
-                <img src="image/menu.png" alt="">
-            </div>
+            <div class="dropdown">
+              <img src="image/menu.png" alt="" onclick="myFunction()" class="dropbtn">
+              <div id="myDropdown" class="dropdown-content">
+                  <a href="#inicio">Início</a>
+                  <a href="#produtos">Produtos</a>
+                  <a href="#eventos">Eventos</a>
+                  <a href="#historia">História</a>
+                  <a href="view/privace.html">Política de Privacidade</a>
+              </div>
+          </div>
         </div>
     </header>
     <main>
-        
         <section id="inicio" class="section">
             <h1>Mancha Azul - Site Oficial</h1>
             <img src="image/mancha/WhatsApp Image 2025-12-12 at 12.11.11.jpeg" alt="">
@@ -271,5 +279,6 @@
         <p class="rodape-direitos">Copyright © 2025 – Todos os Direitos Reservados <a href="https://instagram.com/designsvm_" target="_blank">@vmdesigns</a></p>
     </footer>
     <script src="scripts/scroll.js"></script>
+    <script type="text/javascript" src="scripts/menumobile.js"></script>
 </body>
 </html>

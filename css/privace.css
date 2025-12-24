@@ -3,9 +3,9 @@
 main{
     text-decoration: none;
     width:100%;
-    height: auto;
     background-color: #ebebeb;
     border-radius: 10px;
+    height: auto;
 }
 
 main ol li a{
@@ -14,7 +14,8 @@ main ol li a{
 }
 @media (max-width: 932px){
     main{
-        width: 90%;
+        width: 100%;
+        margin-top: 101px;
     }
     main ol li{
         font-size: 16px;

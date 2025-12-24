@@ -229,6 +229,9 @@ h1{
   .vendas{
     flex-direction: column;
   }
+  .vendas img{
+    max-width: 932px;
+  }
   .galeria img{
     width: 100%;
   }
