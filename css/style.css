@@ -179,6 +179,9 @@ header{
 }   
 
 @media (max-width: 932px){
+    body{
+        overflow-x: hidden;
+    }
     main{
         margin-top: 100px;
     }
@@ -196,7 +199,7 @@ header{
         position: fixed;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 100vw;
         height: 100px;
         border-radius: 0;
         z-index: 99;
