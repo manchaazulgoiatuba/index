@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #f0f0f0;
+  background: white;
   text-align: center;
 }
 
@@ -290,7 +290,18 @@ h1{
     transform: scale(1.03);
 }
 
-
+#eventos h2{
+  padding-top: 50px;
+}
+.slide2 img{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+  height: 100%;
+  margin: auto;
+  border-radius: 20px;
+}
 @media (max-width: 932px){
   body{
     max-width: 100vw;
